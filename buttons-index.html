@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>jQuery-Lessons</title>
+  <link type="text/css" rel="stylesheet" href="styles/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header class="main-header main-header-bg interval-header-footer">
+  <div class="content flex-between flex-wrap align-center">
+    <h1>jQuery - Homework9</h1>
+    <nav>
+      <ul class="flex-between header-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Buttons-list</a></li>
+        <li><a href="methods-index.html">jQuery-methods</a></li>
+        <li><a href="forms-index.html">Forms</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="button-section interval-section">
+  <div class="content center-flex-column">
+    <h2 class="title title-section">Buttons list</h2>
+    <ul class="flex-center  flex-wrap margin-down-50">
+      <li><button class="btn push-button">addClass</button></li>
+      <li><button id="remove" class="btn push-button red">removeClass</button></li>
+      <li><button id="add-remove-class" class="btn push-button blue">toggleClass</button></li>
+      <li><button id="get-attr" class="btn push-button blue" title="Attribute this btn">getAttr</button></li>
+      <li><button id="set-attr" class="btn push-button red">setAttr</button></li>
+      <li><button class="btn push-button red" id="alert">alertOnClick</button></li>
+      <li><button class="btn push-button blue" id="trigger">triggerAlert</button></li>
+      <li><button class="btn push-button red" id="clone">cloneThis</button></li>
+      <li><button id="closest" class="btn push-button blue">closestElement</button></li>
+      <li><button id="each-btn" class="btn push-button blue">eachBtnText</button></li>
+      <li><button id="findme" class="btn push-button blue">findMe</button></li>
+      <li><button id="about" class="btn push-button blue">dataAboutMe</button></li>
+    </ul>
+    <h2 class="title title-section btn-with-text">Buttons list with texts</h2>
+    <ul class="flex-column center-flex-column">
+      <li>
+        <button id="fade-in" class="push-button blue">fadeInText</button>
+        <p class="text text-block" id="fade-in-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </li>
+      <li>
+        <button id="fade-out" class="push-button red">fadeOutText</button>
+        <p class="text text-block" id="fade-out-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </li>
+      <li>
+        <button id="hide" class="push-button red">hideText</button>
+        <p class="text text-block" id="hide-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </li>
+      <li>
+        <button id="show" class="push-button blue">showText</button>
+        <p class="text text-block" id="show-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer class="main-footer main-footer-bg interval-header-footer">
+  <div class="content flex-center">
+    <h2 class="title title-footer">Frontend + JS 2017</h2>
+  </div>
+</footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/commonJs.js"></script>
+</body>
+</html>

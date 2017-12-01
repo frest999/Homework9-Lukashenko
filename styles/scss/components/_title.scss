@@ -1,0 +1,12 @@
+.title{
+  font-family: $font-brand;
+  line-height: 1.8;
+  &-footer{
+    color: $color-brand-2;
+    font-size: $footer-title-size;
+  }
+  &-section{
+    font-size: 4rem;
+    color: $dark-text;
+  }
+}

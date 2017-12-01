@@ -1,0 +1,24 @@
+*{
+  outline: none;
+}
+i{
+  font-style: italic;
+}
+p{
+  line-height: 1.8;
+}
+
+.content{
+  width: $content-width;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a{
+  cursor: pointer;
+}
+h1{
+  font-size: $h1-header-size;
+  color: $color-brand-1;
+  font-family: $font-brand;
+}

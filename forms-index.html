@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>jQuery-Lessons</title>
+  <link type="text/css" rel="stylesheet" href="styles/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header class="main-header main-header-bg interval-header-footer">
+  <div class="content flex-between flex-wrap align-center">
+    <h1>jQuery - Homework9</h1>
+    <nav>
+      <ul class="flex-between header-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="buttons-index.html">Buttons-list</a></li>
+        <li><a href="">jQuery-methods</a></li>
+        <li><a href="forms-index.html">Forms</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="interval-section">
+  <div class="content">
+    <div class="form-block">
+      <form method="post" id="registration-form">
+       <div class="flex-between registr-list">
+         <div class="registr-feild-block">
+          <input class="registr-feild" type="text" name="Login" placeholder="Login">
+          <input class="registr-feild" type="email" name="Email" placeholder="Email">
+          <input class="registr-feild" type="password" name="Password" placeholder="Password">
+          <input class="registr-feild" type="password" name="Confirm-password" placeholder="Confirm password">
+          <input class="registr-feild" type="number" name="Number" placeholder="Phone number">
+           <p class="text text-main">Button Inspector</p>
+           <p class="text text-main press-inspect"></p>
+          <input class="registr-feild" id="keydown" type="text" placeholder="Enter the button">
+           <p class="text text-main up-inspect"></p>
+          <input class="registr-feild" id="keyup" type="text" placeholder="Clutch the button">
+           <p class="text text-main">Double text</p>
+          <input class="registr-feild" id="double-origin" type="text" placeholder="Double text">
+           <input class="registr-feild" id="double-copy" type="text" placeholder="Double">
+         </div>
+         <div>
+          <select name="Gender">
+            <option selected disabled>Select a gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <select name="Age">
+            <option selected disabled>Select a age</option>
+            <option value="15-20">15-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-40">31-40</option>
+            <option value="41-50">41-50</option>
+            <option value="51-60">51-60</option>
+            <option value="61-70">61-70</option>
+            <option value="71-80">71-80</option>
+            <option value="81-90">81-90</option>
+          </select>
+
+            <p>Accept the agreement:</p>
+            <label for="accept"> <input name="agreement" type="radio" id="accept" value="Accept">Accept</label>
+            <label for="decline"> <input name="agreement" type="radio" id="decline" value="Decline">Decline</label>
+
+            <p>Email notifications:</p>
+            <label for="yes-letter"> <input name="notification" type="radio" id="yes-letter" value="Yes">Yes</label>
+            <label for="no-letter"> <input name="notification" type="radio" id="no-letter" value="No">No</label>
+
+            <p>Notification</p>
+            <label for="private-office">
+              <input type="checkbox" name="Notification" id="private-office" value="office">Private office</label>
+            <label for="phone-nottification">
+              <input type="checkbox" name="Notification" id="phone-nottification" value="phone-notification">Phone</label>
+            <label for="email-notification">
+              <input type="checkbox" name="Notification" id="email-notification" value="email-notification">Email</label>
+         </div>
+       </div>
+          <button type="submit" class="push-button blue" id="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="main-footer main-footer-bg interval-header-footer">
+  <div class="content flex-center">
+    <h2 class="title title-footer">Frontend + JS 2017</h2>
+  </div>
+</footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/commonJs.js"></script>
+</body>
+</html>

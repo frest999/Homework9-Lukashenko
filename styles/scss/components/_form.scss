@@ -1,0 +1,24 @@
+.form-block{
+  padding: 0 100px;
+  p{
+    color: $color-brand-1;
+    font-family: "Oswald",sans-serif;
+    margin-bottom: 20px;
+  }
+  input, select{
+    margin-bottom: 30px;
+  }
+  .registr-feild{
+    padding: 15px;
+    border: 1px solid $color-brand-1;
+    @include border-radius(50px);
+    color: $dark-text;
+    display: block;
+    font-size: 1.2rem;
+  }
+  select{
+    border: 2px solid $color-brand-2;
+    padding: 10px;
+  }
+
+}

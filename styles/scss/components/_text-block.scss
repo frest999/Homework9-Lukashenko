@@ -1,0 +1,50 @@
+.text{
+  font-family: "Comic Sans MS",sans-serif;
+  line-height: 1.8;
+  color: $light-text;
+  font-size: $text-block-size;
+  &-block{
+    padding: 20px;
+    background-color: #2F3034;
+    width: 80%;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    &-detach{
+    margin-top: 20px;
+    width: 50%;
+    }
+  }
+  &-data{
+    color: $dark-text;
+    font-size: $text-block-size *2;
+  }
+  &-dark{
+    color: $dark-text;
+  }
+  &-main{
+    font-size: 1.25rem;
+    color: $dark-text;
+  }
+}
+
+#fade-in-text, #show-text{
+  display: none;
+}
+
+.data-paste{
+  font-size: $text-block-size *2;
+  color: #ff3b36;
+}
+
+.author-text{
+  color: $color-brand-1;
+}
+
+#index-span{
+  font-size: 1.4rem;
+  color: $color-brand-2;
+}
+
+#slideDownText{
+  display: none;
+}
